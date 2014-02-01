@@ -9,7 +9,7 @@ def test_1():
 	change to whatever the new assignment is."""
 
 	c = 0
-	def fun(d = c):
+	def fun(a = c):
 		return d
 
 	print("Test 1:")
@@ -44,7 +44,7 @@ def test_3():
 	"""Given Test 2, you would expect any changes made to the function's copied object
 	to not affect the original value of the parameter--but it does."""
 
-	def fun(a, list_1 = []):
+	def fun(c, list_1 = []):
 		list_1.append(a)
 		return list_1
 
