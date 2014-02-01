@@ -10,7 +10,7 @@ def test_1():
 
 	c = 0
 	def fun(a = c):
-		return d
+		return a
 
 	print("Test 1:")
 
@@ -31,8 +31,8 @@ def test_2():
 	that parameter should be carried across multiple function calls."""
 
 	def fun(b = 0):
-		b += 1 # autoincrementing doesn't work the same in Python as in C
-		return b
+		b += 1
+		return b # in C, I would have written `return ++b`, but that doesn't work in Python
 
 	print("Test 2:")
 
@@ -45,7 +45,7 @@ def test_3():
 	to not affect the original value of the parameter--but it does."""
 
 	def fun(c, list_1 = []):
-		list_1.append(a)
+		list_1.append(c)
 		return list_1
 
 	print("Test 3:")
