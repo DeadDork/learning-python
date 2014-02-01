@@ -37,8 +37,8 @@ def fun_2(a, b = 0):
 print("Test 2:")
 
 print("\t", fun_2(1))
-print("\t", fun_2(2))
-print("\t", fun_2(3))
+print("\t", fun_2(1))
+print("\t", fun_2(1))
 # }}}
 
 # {{{
