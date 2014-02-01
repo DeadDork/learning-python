@@ -57,6 +57,20 @@ def test_3():
 
 # Main {{{
 test_1()
+# Result:
+#	0
+#	0
+#	0
+
 test_2()
+# Result:
+#	1
+#	1
+#	1
+
 test_3()
+# Result:
+#	[1]
+#	[1, 2]
+#	[1, 2, 3]
 # }}}
