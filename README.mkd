@@ -1,0 +1,9 @@
+README
+======
+
+Learning Python for fun and profit.
+
+Nota Bene
+---------
+
+I'm not in the mood to learn Python "correctly" (i.e. from a book), so I'm hacking around instead.
